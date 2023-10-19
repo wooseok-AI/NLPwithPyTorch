@@ -7,20 +7,24 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_5 TILs and counting..._
+_6 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [MaxHeap](DataStructure/MaxHeap.md) - Thu Oct 19 10:08:59 2023 +0900
 - [Transformer](Deeplearning/Transfromer.md) - Thu Oct 19 10:07:36 2023 +0900
-- [L1,L2_Regularization](Deeplearning/L1,L2_Regularization.md) - Thu Oct 19 10:07:12 2023 +0900
 
 ### Categories
 
+- [DataStructure](#DataStructure)
 - [Deeplearning](#Deeplearning)
 - [Embedded](#Embedded)
 - [NLPwithPyTorch](#NLPwithPyTorch)
+
+### [DataStructure](#DataStructure)
+- [MaxHeap](DataStructure/MaxHeap.md)
 
 ### [Deeplearning](#Deeplearning)
 - [L1,L2_Regularization](Deeplearning/L1,L2_Regularization.md)
