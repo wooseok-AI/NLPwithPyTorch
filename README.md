@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_4 TILs and counting..._
+_5 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [Transformer](Deeplearing/Transformer.md) - Thu Oct 19 10:05:31 2023 +0900
 - [01_Regularization](Deeplearing/01_Regularization.md) - Thu Oct 19 10:03:31 2023 +0900
-- [01.MICOM_HARWARE_CONFIGURATION](Embedded/01_MICOM_HARWARE_CONFIGURATION.md) - Thu Oct 19 09:54:26 2023 +0900
 
 ### Categories
 
@@ -24,6 +24,7 @@ _4 TILs and counting..._
 
 ### [Deeplearing](#Deeplearing)
 - [01_Regularization](Deeplearing/01_Regularization.md)
+- [Transformer](Deeplearing/Transformer.md)
 
 ### [Embedded](#Embedded)
 - [01.MICOM_HARWARE_CONFIGURATION](Embedded/01_MICOM_HARWARE_CONFIGURATION.md)
