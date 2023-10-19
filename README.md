@@ -13,8 +13,8 @@ _5 TILs and counting..._
 
 ### 2 most recent TILs
 
+- [L1,L2_Regularization](Deeplearing/L1,L2_Regularization.md) - Thu Oct 19 10:05:52 2023 +0900
 - [Transformer](Deeplearing/Transformer.md) - Thu Oct 19 10:05:31 2023 +0900
-- [01_Regularization](Deeplearing/01_Regularization.md) - Thu Oct 19 10:03:31 2023 +0900
 
 ### Categories
 
@@ -23,7 +23,7 @@ _5 TILs and counting..._
 - [NLPwithPyTorch](#NLPwithPyTorch)
 
 ### [Deeplearing](#Deeplearing)
-- [01_Regularization](Deeplearing/01_Regularization.md)
+- [L1,L2_Regularization](Deeplearing/L1,L2_Regularization.md)
 - [Transformer](Deeplearing/Transformer.md)
 
 ### [Embedded](#Embedded)
