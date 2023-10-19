@@ -121,3 +121,101 @@ https://code-lab1.tistory.com/204
 * I/O Mapped I/O
 
   I/O 맵드 I/O의 경우, ROM, RAM는 메모리 공간으로 취급하고, 주변장치의 레지스터는 전용 명령으로 제어한다.
+
+</br>
+
+# CPU란
+
+ROM으로 부터 실행해야할 절차를 읽어들이며, 읽어들인 절차를 해석해서 실행한다.
+실행 결과는 RAM등에 보관한다.
+
+<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+  <tr>
+    <th style="text-align: center; vertical-align: middle;" colspan="2"><b>CPU 구조</b></th>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;" colspan="2">Program Counter</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;" colspan="2">Decoder</th>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">System Register</td>
+    <td style="text-align: center; vertical-align: middle;">General Purpose Register</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;" colspan="2">Arithmetic and Logic Unit</td>
+  </tr>
+</table>
+
+* Progrm Counter
+
+프로그램 카운터는 ROM내의 프로그램의 어디를 참고할지 관리함. Program Counter는 CPU 명령의 보관장소를 관리하여, 다음에 실행해야할 명령을 읽을 위치를 CPU에 전달하는 역할을 함.
+
+* Decoder
+
+불러온 명령을 해독하여 ALU에서의 연산이나, 데이터의 이동등 구체적 지시를 CPU내에서 실행한다.
+
+* ALU
+
+정수의 사칙연산 혹은 AND, OR, NOT 등의 논리연산을 실행함. 
+ALU에서 연산을 수행한 후에는 범용 레지스터나 시스템 레지스터에 반영한다.
+
+* General Purpose Register (범용레지스터)
+
+CPU에 내장된 범용 메모리로, 고속이지만 용량이 작아 일시적으로 이용된다.  ALU의 연산결과를 보관하거나 데이터를 이동할 떄의 보관장소로 이용된다.
+
+* System Register (시스템 레지스터)
+
+CPU 명령 실행을 위해 이용되며, 명령을 보관하는 명령 레지스터, 주소 관리용 주소 레지스터, CPU상태 관리용 플래그 레지스터 등이 있다.
+
+|7bit|6bit|5bit|4bit|3bit|2bit|1bit|0bit|
+|---|---|---|---|---|---|---|---|
+|I|-|H|S|-|N|Z|C|
+
+|비트|이름|용도|
+|---|---|---|
+|0|C : Carry Flag| ALU에서의 연산결과로 OverFlow가 발생한 상태관리|
+|1|Z : Zero Flag| ALU에서의 연산 결과가 0이 된 상태를 관리|
+|2|N : Negative Flag| ALU애서의 연산이 덧셈인지 뺄셈인지 상태관리|
+|4|S : Sign Flag| ALU에서의 연산결과가 음수가 되었는지의 상태관리|
+|5|H : Half Carry Flag| ALU 에서의 연산결과로 Overflow된 상태관리, Carry Flag가 최상위 비트를 보고 있는데 반해, 중간 3비트째의 오버플로를 관리한다. Binary Coded Decial의 연산에 이용|
+|7|I : Interrupt Eable| 인터럽트 허가하는지에 대한 상태관리|
+
+## CPU 명령실행
+
+1. 명령 패치 사이클 : ROM에서 명령 추출
+2. 명령 디코드 사이클 : 추출한 명령 해독 및 실행준비
+3. 실행 사이클 : 명령 실행 
+4. 라이트 백 사이클 : 명령 실행 결과의 반영
+
+## CPU 명령의 종류
+
+데이터 취급 명령의 대부분은 범용 레지스터를 활용함. 범용 레지스터의 데이터를 메모리에 기록하거나, 메모리에 있는 데이터를 범용 레지스터로 읽어 들인다.
+
+* CPU와 메모리 사이의 데이터 교환명령
+* CPU와 주변장치 사이의 데이터 교환명령
+* CPU 내부명령
+
+## 인터럽트
+
+주변장치로 부터의 처리요구를 CPU에 통지하기 위한 신호이다.
+인터럽트는 interrupt vectro table에 저장되며, 미리 정해진 프로그램에 맞게 점프한다. 인터럽트 처리 종료후에는 일상적 동작을 재개한다.
+
+### 인터럽트의 종류
+
+* 타이머 인터럽트
+
+  소정의 시간이 되면 인터럽트를 발생시키는 의도를 가지고 사용함
+
+* 외부 인터럽트
+
+  주변장치의 상태에 따른 인터럽트
+
+인터럽트의 종류에는 타이머 처리, DMA 처리, 스위치 처리, 렌더링 처리, 시리얼 처리 가 있다. 인터럽트 벡터에는 처리 그 자체를 등록하는 것이 아니라 메모리 주소를 저장한다.
+
+### 인터럽트 우선순위
+
+인터럽트 처릴 순서를 위해서 우선순위를 정해야한다. 인터럽트의 우선순위를 지정해두고, 인터럽트 벡터에 프로그램 번지를 등록한다. 특정 CPU에는 우선순위를 위한 레지스터가 있다.
+
+
