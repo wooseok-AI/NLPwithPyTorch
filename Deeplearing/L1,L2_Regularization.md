@@ -1,4 +1,4 @@
-01_Regularization
+L1,L2_Regularization
 
 # How to Prevent Overfitting
 
