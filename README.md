@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_6 TILs and counting..._
+_7 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [02_EMBEDDED_SOFTWARE](Embedded/Embedded_Software.md) - Tue Oct 24 13:14:49 2023 +0900
 - [MaxHeap](DataStructure/MaxHeap.md) - Thu Oct 19 10:08:59 2023 +0900
-- [Transformer](Deeplearning/Transfromer.md) - Thu Oct 19 10:07:36 2023 +0900
 
 ### Categories
 
@@ -32,6 +32,7 @@ _6 TILs and counting..._
 
 ### [Embedded](#Embedded)
 - [01.MICOM_HARWARE_CONFIGURATION](Embedded/01_MICOM_HARWARE_CONFIGURATION.md)
+- [02_EMBEDDED_SOFTWARE](Embedded/Embedded_Software.md)
 
 ### [NLPwithPyTorch](#NLPwithPyTorch)
 - [CHAPTER1_INTRODUCTION_BASIC_TENSOR](NLPwithPyTorch/CHAPTER1_INTRODUCTION_BASIC_TENSOR.md)
