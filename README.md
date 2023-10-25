@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_8 TILs and counting..._
+_9 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [01_Introduction_to_MLOps](MLOps/01_Introduction_to_MLOps.md) - Wed Oct 25 09:07:14 2023 +0900
 - [HTML_CENTER_ALIGN](HTML/HTML_CENTER_ALIGN.md) - Tue Oct 24 13:17:54 2023 +0900
-- [02_EMBEDDED_SOFTWARE](Embedded/02_EMBEDDED_SOFTWARE.md) - Tue Oct 24 13:15:09 2023 +0900
 
 ### Categories
 
@@ -22,6 +22,7 @@ _8 TILs and counting..._
 - [Deeplearning](#Deeplearning)
 - [Embedded](#Embedded)
 - [HTML](#HTML)
+- [MLOps](#MLOps)
 - [NLPwithPyTorch](#NLPwithPyTorch)
 
 ### [DataStructure](#DataStructure)
@@ -37,6 +38,9 @@ _8 TILs and counting..._
 
 ### [HTML](#HTML)
 - [HTML_CENTER_ALIGN](HTML/HTML_CENTER_ALIGN.md)
+
+### [MLOps](#MLOps)
+- [01_Introduction_to_MLOps](MLOps/01_Introduction_to_MLOps.md)
 
 ### [NLPwithPyTorch](#NLPwithPyTorch)
 - [CHAPTER1_INTRODUCTION_BASIC_TENSOR](NLPwithPyTorch/CHAPTER1_INTRODUCTION_BASIC_TENSOR.md)
