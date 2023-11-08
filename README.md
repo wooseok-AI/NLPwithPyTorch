@@ -7,7 +7,7 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_10 TILs and counting..._
+_11 TILs and counting..._
 
 ---
 
@@ -31,6 +31,7 @@ _10 TILs and counting..._
 
 ### [Deeplearning](#Deeplearning)
 - [L1,L2_Regularization](Deeplearning/L1,L2_Regularization.md)
+- [METRIC_OF_COREFERENCE_RESOLUTION](Deeplearning/METRIC_OF_COREFERENCE_RESOLUTION.md)
 - [Transformer](Deeplearning/Transfromer.md)
 
 ### [Embedded](#Embedded)
