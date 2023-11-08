@@ -1,4 +1,4 @@
-METRIC_OF_COREFERENCE_RESOLUTION
+Metric_of_Coreference_Resolution
 
 # 상호참조 해결 (Coreference)
 
