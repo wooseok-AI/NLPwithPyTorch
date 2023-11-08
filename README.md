@@ -31,7 +31,7 @@ _11 TILs and counting..._
 
 ### [Deeplearning](#Deeplearning)
 - [L1,L2_Regularization](Deeplearning/L1,L2_Regularization.md)
-- [METRIC_OF_COREFERENCE_RESOLUTION](Deeplearning/METRIC_OF_COREFERENCE_RESOLUTION.md)
+- [Metric_of_Coreference_Resolution](Deeplearning/Metric_of_Coreference_Resolution.md)
 - [Transformer](Deeplearning/Transfromer.md)
 
 ### [Embedded](#Embedded)
